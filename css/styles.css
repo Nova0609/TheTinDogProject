@@ -43,6 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
 
 /* Title Image */
@@ -58,8 +59,12 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
+.feature-title{
+  font-size: 1.5rem;
+}
+
 .feature-box{
-  text-align: center;
+  padding: 4.5%;
 }
 
 .icon{
@@ -107,11 +112,13 @@ p {
 }
 /* Testimonials */
 
-#testimonials{
-  padding: 7% 15%;
-  text-align: center;
+#testimonials {
   background-color: #ef8172;
-  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonials-image{
@@ -129,4 +136,8 @@ p {
 .press-logo{
   width:15%;
   margin: 20px 50px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
 }
