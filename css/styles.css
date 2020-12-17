@@ -3,42 +3,14 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat-Bold";
-}
-
-p {
-  color: #8f8f8f;
-}
-
-/* Headings */
-
-.big-heading {
-  font-family: "Montserrat-Black";
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
-.section-heading {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-/* Containers */
-
-.container-fluid{
-  padding: 7% 15%;
-}
-
-/* Sections */
-
-.colored-section {
+#title {
   background-color: #ff4c68;
   color: #fff;
+  text-align: left;
 }
 
-.white-section {
-  background-color: #fff;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
 }
 
 /* Navigation Bar */
@@ -63,18 +35,11 @@ p {
 }
 
 /* Buttons */
-
 .download-button {
   margin: 5% 3% 5% 0;
 }
 
 /* Title Section */
-
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
-}
 
 #title .container-fluid {
   padding: 3% 15% 7%;
@@ -89,16 +54,54 @@ p {
   right: 30%;
 }
 
-/*h1 {
-  font-family: 'Montserrat, arial';
+#features{
+  position: relative;
+}
+
+.feature-box{
+  text-align: center;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
   font-size: 3rem;
   line-height: 1.5;
 }
 
-#title {
-  background-color: #ff4c68;
+p {
+  color: #8f8f8f;
 }
-
-.nav-link, .navbar-brand{
-  color: White;
-  text-decoration: none; (no underline)*/
