@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: #8f8f8f;
+  color: #0b0b0d;
 }
 
 /* Headings */
@@ -34,12 +34,12 @@ p {
 /* Sections */
 
 .colored-section {
-  background-color: #ff4c68;
-  color: #fff;
+  background-color: #98acf8;
+  color: #0b0b0d;
 }
 
-.white-section {
-  background-color: #fff;
+.light-section {
+  background-color: #d3d5fd;
 }
 
 /* Navigation Bar */
@@ -72,8 +72,8 @@ p {
 /* Title Section */
 
 #title {
-  background-color: #ff4c68;
-  color: #fff;
+  background-color: #98acf8;
+  color: #0b0b0d;
   text-align: left;
 }
 
@@ -105,18 +105,18 @@ p {
 }
 
 .icon {
-  color: #ef8172;
+  color: #474a56;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #ff4c68;
+  color: #03506f;
 }
 
 /* Testimonial Section */
 
 #testimonials {
-  background-color: #ef8172;
+  background-color: #d9adad;
 }
 
 .testimonial-text {
@@ -131,7 +131,7 @@ p {
 }
 
 #press {
-  background-color: #ef8172;
+  background-color: #98acf8;
   padding-bottom: 3%;
 }
 
